@@ -37,7 +37,7 @@ public class FirefoxDrivenTest extends Core {
 		// Sets up the WebDriver to use Chrome
 		setDriver(new FirefoxDriver());
 		// Sets the baseURL to amazon.com
-		// setBaseUrl("http://www.amazon.com");
+		setBaseUrl("http://www.amazon.com");
 		// Sets up default implicit wait to wait for 30 secons
 		getDriver().manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		//

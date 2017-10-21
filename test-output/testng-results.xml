@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3879" started-at="2017-10-21T21:50:39Z" finished-at="2017-10-21T21:50:43Z">
+  <suite name="Default suite" duration-ms="7293" started-at="2017-10-21T22:13:17Z" finished-at="2017-10-21T22:13:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3879" started-at="2017-10-21T21:50:39Z" finished-at="2017-10-21T21:50:43Z">
-      <class name="com.sqa.mc.core.SafariDrivenTest">
-        <test-method status="PASS" signature="setUpSafari()[pri:0, instance:com.sqa.mc.core.SafariDrivenTest@370736d9]" name="setUpSafari" is-config="true" duration-ms="3737" started-at="2017-10-21T14:50:39Z" finished-at="2017-10-21T14:50:42Z">
+    <test name="Default test" duration-ms="7293" started-at="2017-10-21T22:13:17Z" finished-at="2017-10-21T22:13:24Z">
+      <class name="com.sqa.mc.core.FirefoxDrivenTest">
+        <test-method status="PASS" signature="setUpFirefox()[pri:0, instance:com.sqa.mc.core.FirefoxDrivenTest@370736d9]" name="setUpFirefox" is-config="true" duration-ms="7089" started-at="2017-10-21T15:13:17Z" finished-at="2017-10-21T15:13:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpSafari -->
-        <test-method status="PASS" signature="craigslistTest(java.lang.String, int)[pri:0, instance:com.sqa.mc.core.SafariDrivenTest@370736d9]" name="craigslistTest" duration-ms="8" started-at="2017-10-21T14:50:42Z" data-provider="dp" finished-at="2017-10-21T14:50:42Z">
+        </test-method> <!-- setUpFirefox -->
+        <test-method status="PASS" signature="craigslistTest(java.lang.String, int)[pri:0, instance:com.sqa.mc.core.FirefoxDrivenTest@370736d9]" name="craigslistTest" duration-ms="10" started-at="2017-10-21T15:13:24Z" data-provider="dp" finished-at="2017-10-21T15:13:24Z">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- craigslistTest -->
-        <test-method status="PASS" signature="craigslistTest(java.lang.String, int)[pri:0, instance:com.sqa.mc.core.SafariDrivenTest@370736d9]" name="craigslistTest" duration-ms="1" started-at="2017-10-21T14:50:42Z" data-provider="dp" finished-at="2017-10-21T14:50:42Z">
+        <test-method status="PASS" signature="craigslistTest(java.lang.String, int)[pri:0, instance:com.sqa.mc.core.FirefoxDrivenTest@370736d9]" name="craigslistTest" duration-ms="2" started-at="2017-10-21T15:13:24Z" data-provider="dp" finished-at="2017-10-21T15:13:24Z">
           <params>
             <param index="0">
               <value>
@@ -43,11 +43,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- craigslistTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sqa.mc.core.SafariDrivenTest@370736d9]" name="tearDown" is-config="true" duration-ms="87" started-at="2017-10-21T14:50:42Z" finished-at="2017-10-21T14:50:43Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sqa.mc.core.FirefoxDrivenTest@370736d9]" name="tearDown" is-config="true" duration-ms="159" started-at="2017-10-21T15:13:24Z" finished-at="2017-10-21T15:13:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.sqa.mc.core.SafariDrivenTest -->
+      </class> <!-- com.sqa.mc.core.FirefoxDrivenTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

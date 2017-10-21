@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.sqa.mc.core.BasicTest">
+      <class name="com.sqa.mc.core.FirefoxDrivenTest">
         <methods>
+          <include name="setUpFirefox"/>
           <include name="tearDown"/>
-          <include name="setUpChrome"/>
           <include name="craigslistTest" invocation-numbers="0 1"/>
-          <include name="setUpSafari"/>
         </methods>
-      </class> <!-- com.sqa.mc.core.BasicTest -->
+      </class> <!-- com.sqa.mc.core.FirefoxDrivenTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
