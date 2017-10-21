@@ -2,16 +2,15 @@ package com.sqa.mc.core;
 
 import java.util.concurrent.*;
 
-import org.openqa.selenium.chrome.*;
 import org.openqa.selenium.safari.*;
 import org.testng.annotations.*;
 
-public class BasicTest extends Core {
+public class SafariDrivenTest extends Core {
 
 	/**
 	 * @param test
 	 */
-	public BasicTest(String baseURL) {
+	public SafariDrivenTest(String baseURL) {
 		super(baseURL);
 	}
 
@@ -29,19 +28,6 @@ public class BasicTest extends Core {
 				new Object[] { "QA Engineer", 2 },//
 				new Object[] { "Java developer", 10 },//
 		};//
-	}
-
-	@BeforeClass()
-	public void setUpChrome() throws Exception {
-		System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
-		// Sets up the WebDriver to use Chrome
-		setDriver(new ChromeDriver());
-		// Sets the baseURL to amazon.com
-		setBaseUrl("http://www.amazon.com");
-		// Sets up default implicit wait to wait for 30 secons
-		getDriver().manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		//
-		getDriver().get(this.getBaseUrl());
 	}
 
 	@BeforeClass()

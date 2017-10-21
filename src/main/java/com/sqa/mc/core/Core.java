@@ -17,11 +17,11 @@ public class Core {
 
 	protected WebDriver driver;
 
-	private BasicTest curTest;
+	private FirefoxDrivenTest curTest;
 
 	private Logger log = Logger.getLogger(this.getClass());
 
-	public Core(BasicTest test) {
+	public Core(FirefoxDrivenTest test) {
 		this.curTest = test;
 		this.baseUrl = test.getBaseUrl();
 		this.driver = test.getDriver();
@@ -41,7 +41,7 @@ public class Core {
 		return this.baseUrl;
 	}
 
-	public BasicTest getCurTest() {
+	public FirefoxDrivenTest getCurTest() {
 		return this.curTest;
 	}
 

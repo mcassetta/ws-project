@@ -8,6 +8,7 @@
           <include name="tearDown"/>
           <include name="setUpChrome"/>
           <include name="craigslistTest" invocation-numbers="0 1"/>
+          <include name="setUpSafari"/>
         </methods>
       </class> <!-- com.sqa.mc.core.BasicTest -->
     </classes>
