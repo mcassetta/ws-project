@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8998" started-at="2017-10-21T04:31:16Z" finished-at="2017-10-21T04:31:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8998" started-at="2017-10-21T04:31:16Z" finished-at="2017-10-21T04:31:25Z">
+      <class name="com.sqa.mc.core.CraigslistTest">
+        <test-method status="PASS" signature="setUpChrome()[pri:0, instance:com.sqa.mc.core.CraigslistTest@5f9d02cb]" name="setUpChrome" is-config="true" duration-ms="4951" started-at="2017-10-20T21:31:16Z" finished-at="2017-10-20T21:31:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpChrome -->
+        <test-method status="PASS" signature="setUpSafari()[pri:0, instance:com.sqa.mc.core.CraigslistTest@5f9d02cb]" name="setUpSafari" is-config="true" duration-ms="3895" started-at="2017-10-20T21:31:21Z" finished-at="2017-10-20T21:31:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSafari -->
+        <test-method status="PASS" signature="craigslistTest(java.lang.String, int)[pri:0, instance:com.sqa.mc.core.CraigslistTest@5f9d02cb]" name="craigslistTest" duration-ms="7" started-at="2017-10-20T21:31:24Z" data-provider="dp" finished-at="2017-10-20T21:31:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[QA Engineer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- craigslistTest -->
+        <test-method status="PASS" signature="craigslistTest(java.lang.String, int)[pri:0, instance:com.sqa.mc.core.CraigslistTest@5f9d02cb]" name="craigslistTest" duration-ms="1" started-at="2017-10-20T21:31:24Z" data-provider="dp" finished-at="2017-10-20T21:31:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Java Developer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- craigslistTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sqa.mc.core.CraigslistTest@5f9d02cb]" name="tearDown" is-config="true" duration-ms="108" started-at="2017-10-20T21:31:24Z" finished-at="2017-10-20T21:31:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sqa.mc.core.CraigslistTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
