@@ -1,7 +1,7 @@
-# Basic Automation Project
-## Automation Testing Concepts
+# William Sonoma Automation Project
+## Automation Testing
 
-*Automation to cover basic test functionalities and core concepts.*
+*Automation for testing the William-Sonoma website.*
 
 **Java 8**
 
