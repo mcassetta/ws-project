@@ -59,6 +59,10 @@ public class Core {
 		return AutoBasics.getProp(key, "src/main/resources/", "config.properties", getLog());
 	}
 
+	public boolean isElementPresent(By by) {
+		return AutoBasics.isElementPresent(getDriver(), by, getLog());
+	}
+
 	// Method checks if an element is present on the page. e.g. pop up ad
 	public boolean isElementPresent(String xpathString) {
 		return AutoBasics.isElementPresent(getDriver(), By.xpath(""), getLog());

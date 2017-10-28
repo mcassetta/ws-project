@@ -26,6 +26,7 @@ public class AutoBasics {
 	}
 
 	public static List<WebElement> getLinks(WebDriver driver) {
+		// TODO
 		return null;
 	}
 
@@ -49,15 +50,21 @@ public class AutoBasics {
 	}
 
 	public static List<String> getTextContents(WebDriver driver, By locator) {
+		// TODO
 		return null;
 	}
 
 	public static boolean isElementPresent(WebDriver driver, By by, Logger logger) {
+		// Try used to catch the Exception should an error be thrown
 		try {
+			// Create element based on the By passed into the method
 			WebElement element = driver.findElement(by);
+			// Since there is no error, return true
 			return true;
 		} catch (NoSuchElementException e) {
+			// Logs the error as a warning to console and logger file
 			logger.warn("Element was not found: " + by);
+			// Returns false if it cannot locate the element
 			return false;
 		}
 	}

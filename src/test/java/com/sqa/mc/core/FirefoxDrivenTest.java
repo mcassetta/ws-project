@@ -18,7 +18,7 @@ public class FirefoxDrivenTest extends Core {
 	public void setUpFirefox() {
 		setDriver(new FirefoxDriver());
 		// Sets the baseURL
-		setBaseUrl("http://adactin.com/HotelApp/index.php");
+		setBaseUrl("https://www.williams-sonoma.com/");
 		// Sets up default implicit wait to wait for 30 seconds
 		getDriver().manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		//
