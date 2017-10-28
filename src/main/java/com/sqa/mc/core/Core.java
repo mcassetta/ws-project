@@ -53,6 +53,12 @@ public class Core {
 		return this.log;
 	}
 
+	// Non static method to get property value given a specific key
+	public String getProp(String key) {
+		// return the value of the key based on a file located in resources
+		return AutoBasics.getProp(key, "src/main/resources/", "config.properties", getLog());
+	}
+
 	// Method checks if an element is present on the page. e.g. pop up ad
 	public boolean isElementPresent(String xpathString) {
 		return AutoBasics.isElementPresent(getDriver(), By.xpath(""), getLog());

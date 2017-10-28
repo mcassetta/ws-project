@@ -14,28 +14,12 @@ public class SafariDrivenTest extends Core {
 		super(baseURL);
 	}
 
-	@Test(dataProvider = "dp")
-	public void craigslistTest(String item, int minCount) {
-	}
-
-	/**
-	 * DataProvider for class to make it DataDriven based on the set of data
-	 * returned by this method
-	 */
-	@DataProvider
-	public Object[][] dp() {
-		return new Object[][] { //
-				new Object[] { "QA Engineer", 2 },//
-				new Object[] { "Java developer", 10 },//
-		};//
-	}
-
 	@BeforeClass()
 	public void setUpSafari() throws Exception {
 		// Sets up the WebDriver to use Safari
 		setDriver(new SafariDriver());
 		// Sets the baseURL to amazon.com
-		setBaseUrl("http://www.amazon.com");
+		setBaseUrl("http://adactin.com/HotelApp/");
 		// Sets up default implicit wait to wait for 30 secons
 		getDriver().manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		//
